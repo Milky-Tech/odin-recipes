@@ -2,6 +2,79 @@
 <html>
   <head>
     <title>Odin's Project</title>
+    <style>
+      .section {
+        display: flex;
+        flex: 1 2;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 10%;
+      }
+      .banner {
+        background: #030236;
+        color: aliceblue;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 10%;
+        background: #030236;
+        color: aliceblue;
+      }
+      .header nav {
+        display: flex;
+        gap: 1rem;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .baImg {
+        width: 90%;
+        height: 200px;
+        background-color: #3e3e3f;
+        display: flex;
+        justify-content: center;
+        padding: auto 3rem;
+        align-items: center;
+        color: #333;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        border-color: #5555f1;
+        border: 1px solid;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h2>Headers here</h2>
+      <nav>
+        <li>header link one</li>
+        <li>header link two</li>
+        <li>header link three</li>
+      </nav>
+    </header>
+    <div class="banner section">
+      <div>
+        <h1>
+          <em>This Website is Awesome</em>
+        </h1>
+        <span>This website is a dem and practice for Odin project</span>
+      </div>
+      <div class="baImg">this is a placeholder for an image</div>
+    </div>
+    <section class="section" style="display: block">
+      <h3>Some random information.</h3>
+      <div style="display: flex; gap: 1rem; justify-content: space-between">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+    </section>
+  </body>
 </html>
